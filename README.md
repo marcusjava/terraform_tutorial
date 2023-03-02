@@ -23,13 +23,12 @@ key_file_name = Nome do arquivo da chave publica que será enviada
 ## 3 - Executar projeto
 
 ```sh
-yarn dev
+terraform plan
+terraform apply
 ```
 
 ## Autor
 
 👤 **Marcus Vinicius**
 
-- Github: [@marcusjava](https://github.com/marcusjava)
-
-## Show your support
+- Github: [marcusjava](https://github.com/marcusjava)
