@@ -3,15 +3,22 @@
   
 </p>
 
-<h1 align="center">Terraform Freecodecamp project </h1>
+<h1 align="center">Terraform Freecodecamp AWS </h1>
 
-## 1 - Instalação
+### Projeto terraform para provisionar infraestrutura na AWS criando os seguintes recursos:
+
+## 1 - Iniciar projeto.
 
 ```sh
-yarn install
+terraform init
 ```
 
-## 2 - Configurar variaveis de ambiente
+## 2 - Criar arquivo terraform.tfvars na raiz do projeto com as seguintes variaveis.
+
+```sh
+key_name = Nome da chave dentro da AWS
+key_file_name = Nome do arquivo da chave publica que será enviada
+```
 
 ## 3 - Executar projeto
 
