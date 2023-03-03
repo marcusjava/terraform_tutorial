@@ -5,9 +5,9 @@ variable "intance_type" {
 
 }
 
-variable "key_file_name" {
+variable "key_file" {
   type = string
-  description = "Key file name for connecting to instance"
+  description = "Key .pub for connecting to instance"
 }
 
 

@@ -16,8 +16,8 @@ terraform init
 ## 2 - Criar arquivo terraform.tfvars na raiz do projeto com as seguintes variaveis.
 
 ```sh
-key_name = Nome da chave dentro da AWS
-key_file_name = Nome do arquivo da chave publica que será enviada
+key_name = Nome da chave dentro da AWS. Ex - prod_key
+key_file = Arquivo da chave publica que será enviada. Ex - prod_key.pub
 ```
 
 ## 3 - Executar projeto

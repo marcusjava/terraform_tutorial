@@ -1,6 +1,6 @@
 resource "aws_key_pair" "dev_auth" {
   key_name   = var.key_name
-  public_key = file("~/.ssh/${var.key_file_name}.pub")
+  public_key = file("~/.ssh/${var.key_file}")
 }
 
 resource "aws_instance" "dev_instance" {
